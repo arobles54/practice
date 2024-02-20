@@ -26,4 +26,3 @@ elif user_input == 'no':
     print("Well, you have it now.")
 else:
     print("I'm sorry, I didn't understand your response.")
-    
