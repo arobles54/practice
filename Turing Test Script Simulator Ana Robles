@@ -1,0 +1,29 @@
+# Turing Test Script
+# Ana Robles
+# 02/19/2024
+# This script simulates a simple medical diagnosis conversation with a user.
+
+# Declare variables
+user_input = ""  # User's input placeholder
+prompt = "What is your problem?"
+
+# Prompt the user with the initial question
+print(prompt)
+
+# Ignore user input
+input()
+
+# Prompt the user again
+print("Have you had this problem before (yes or no)?")
+
+# Get the user's response
+user_input = input()
+
+# Provide a simple medical diagnosis based on user input
+if user_input == 'yes':
+    print("Well, you have it again.")
+elif user_input == 'no':
+    print("Well, you have it now.")
+else:
+    print("I'm sorry, I didn't understand your response.")
+    
